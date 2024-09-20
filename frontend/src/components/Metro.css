@@ -1,0 +1,13 @@
+
+.metroSlide {
+    text-align:center;
+}
+
+.metroSlide .header {
+    font-size:40px;
+}
+
+.metroSlide .subheader {
+    font-size:20px;
+    margin-bottom: 20px;
+}
