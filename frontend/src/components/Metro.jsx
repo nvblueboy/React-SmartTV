@@ -21,12 +21,13 @@ export default function Metro() {
             }
         };
         
+        makeAPICall();
         const interval = setInterval(makeAPICall, 20000);
         
 
         //Clearing the interval
         return () => {clearInterval(interval);};
-    }, [data]);
+    }, []);
 
     // useEffect(() => makeAPICall);
 

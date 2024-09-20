@@ -13,12 +13,6 @@ import './App.css'
 
 function App() {
 
-  function nextSlide() {
-    console.log("next slide");
-
-
-  }
-
   var settings = {
     dots: false,
     arrows: false,

@@ -13,12 +13,13 @@ export default function Time() {
 
     useEffect(() => {
         //Implementing the setInterval method
+        updateClock();
         const interval = setInterval(updateClock, 1000);
         // console.log("time effect")
  
         //Clearing the interval
         return () => clearInterval(interval);
-    }, [timeString]);
+    }, []);
 
     // setTimeString(new Date().toLocaleTimeString());
 

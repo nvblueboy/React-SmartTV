@@ -22,12 +22,13 @@ export default function Weather() {
             }
         };
         
+        makeAPICall();
         const interval = setInterval(makeAPICall, 20000);
         
 
         //Clearing the interval
         return () => {clearInterval(interval);};
-    }, [data]);
+    }, []);
 
     return (
         <>
